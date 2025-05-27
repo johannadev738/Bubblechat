@@ -19,7 +19,7 @@ def icon(emoji: str):
 
 icon("💬")
 
-st.subheader("Jaffar 0 to LLM Chatbot Demo", divider="rainbow", anchor=False)
+st.subheader("BubbleChat 0 to LLM Chatbot Demo Class", divider="rainbow", anchor=False)
 
 client = Groq(
     api_key=st.secrets["GROQ_API_KEY"],
